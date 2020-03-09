@@ -1,0 +1,54 @@
+{
+  "name": "@magic-modules/light-box",
+  "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "homepage": "https://magic-modules.github.io/light-box",
+  "license": "AGPL-3.0",
+  "description": "@magic light-box module. shows an image that floats in text and can be clicked for a bigger view.",
+  "main": "src/index.mjs",
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-modules/light-box.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-modules/light-box/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/gdpr": "0.0.14",
+    "@magic-modules/git-badges": "0.0.7",
+    "@magic-modules/light-switch": "0.0.5",
+    "@magic-modules/pre": "0.0.7",
+    "@magic-themes/docs": "0.0.6",
+    "@magic/core": "0.0.58",
+    "@magic/format": "0.0.7",
+    "@magic/test": "0.1.37"
+  },
+  "keywords": [
+    "magic",
+    "lightbox",
+    "image",
+    "embed"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
