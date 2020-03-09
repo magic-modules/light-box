@@ -1,0 +1,3 @@
+user-agent: *
+allow: /
+sitemap: https://magic-modules.github.io/light-box/sitemap.xml
