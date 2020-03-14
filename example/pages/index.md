@@ -5,7 +5,7 @@ this is the [@magic-modules](https://github.com/magic-modules) LightBox componen
 it shows an image that floats within the surrounding text, and,
 when clicked, expands to show a bigger view of itself.
 
-<GitBadges>magic-modules/light-box</GitBadges>
+<GitBadges>@magic-modules/light-box</GitBadges>
 
 ## installation
 
