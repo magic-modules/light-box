@@ -37,7 +37,11 @@ LightBox('/img/img.png')
 ##### 0.0.1
 first release.
 
-##### 0.0.2 - unreleased
+##### 0.0.2
+* fix image sizes
+* image hover has cursor: pointer
+
+##### 0.0.3 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/light-box.svg
