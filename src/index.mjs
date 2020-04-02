@@ -59,9 +59,12 @@ export const style = vars => ({
   margin: '0 1.5em 1.5em 0',
   maxWidth: '45%',
   transition: 'max-width 300ms',
+  cursor: 'pointer',
 
   img: {
     height: 'auto',
+    maxWidth: '100%',
+    maxHeight: '100%',
   },
 
   '&.right': {
