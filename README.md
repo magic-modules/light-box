@@ -41,7 +41,10 @@ first release.
 * fix image sizes
 * image hover has cursor: pointer
 
-##### 0.0.3 - unreleased
+##### 0.0.3 
+bump required node version to 14.2.0
+
+##### 0.0.4 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/light-box.svg
