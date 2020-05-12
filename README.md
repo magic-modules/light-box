@@ -44,7 +44,10 @@ first release.
 ##### 0.0.3 
 bump required node version to 14.2.0
 
-##### 0.0.4 - unreleased
+##### 0.0.4 
+change css to show full-width images on smaller resolutions
+
+##### 0.0.5 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/light-box.svg
