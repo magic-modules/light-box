@@ -1,5 +1,5 @@
 export const View = (p = {}) => {
-  p.right = p.right === "true"
+  p.right = p.right === 'true'
 
   CHECK_PROPS(p, propTypes, 'LightBox')
 
@@ -120,7 +120,6 @@ export const style = vars => ({
     margin: '0 1.5em 1.5em 0',
   },
 })
-
 
 //url, text, img, right = false, height, width, title, state
 export const propTypes = {

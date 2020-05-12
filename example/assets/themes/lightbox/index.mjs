@@ -1,5 +1,5 @@
 export default {
-  'h3': {
+  h3: {
     clear: 'both',
   },
 }
