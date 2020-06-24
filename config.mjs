@@ -4,5 +4,5 @@ export default {
   URL: 'magic-modules.github.io/light-box',
   PUBLIC: 'docs',
   THEME: ['docs', 'lightbox'],
-  HOIST: ['LightSwitch', 'Gdpr'],
+  HOIST: ['LightSwitch', 'NoSpy'],
 }
