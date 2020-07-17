@@ -13,7 +13,7 @@ when clicked, expands to show a bigger view of itself.
 
 ## usage
 
-left aligned
+### left aligned
 
 ```
 &lt;LightBox
@@ -72,6 +72,38 @@ renders
 </LightBox>
 
 ## A lightbox.
+
+Click on the image to the right to show a bigger version.
+</div>
+
+### other sizes
+
+
+```
+&lt;LightBox
+  state
+  img="https://imgs.xkcd.com/comics/git_commit.png"
+  width="250"
+  height="96"
+  url="https://xkcd.com/"
+  text="comic by xkcd">
+&lt;/LightBox>
+```
+
+renders
+
+<div>
+
+<LightBox
+  state
+  img="https://imgs.xkcd.com/comics/git_commit.png"
+  width="250"
+  height="96"
+  url="https://xkcd.com/"
+  text="comic by xkcd">
+</LightBox>
+
+## git commit
 
 Click on the image to the left to show a bigger version.
 </div>
