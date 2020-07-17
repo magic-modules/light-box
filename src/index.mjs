@@ -56,18 +56,14 @@ export const globals = {
 
 export const style = vars => ({
   float: 'left',
-  margin: '0',
-  width: '100%',
-  transition: 'max-width 300ms',
+  margin: '0 1.5em 1.5em 0',
   cursor: 'pointer',
   minWidth: '200px',
   maxWidth: '800px',
 
   img: {
-    height: 'auto',
     maxWidth: '100%',
     maxHeight: '100%',
-    width: '100%',
   },
 
   '&.right': {
@@ -111,10 +107,13 @@ export const style = vars => ({
     img: {
       display: 'block',
       margin: '0 auto',
+      height: 'auto',
+      width: '90vw',
+      maxWidth: '90vh',
     },
   },
 
-  '@media screen and (min-width: 600px)': {
+  [`@media screen and (min-width: ${(vars.widths && vars.widths.tablet) || '600px'})`]: {
     width: '45%',
     maxWidth: '800px',
     margin: '0 1.5em 1.5em 0',
