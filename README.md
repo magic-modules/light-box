@@ -1,7 +1,9 @@
 ## @magic-modules/light-box
 
-this is the [@magic-modules](https://github.com/magic-modules)
-[Xkcd](https://xckd.com) component. It loads comic strips from imgs.light-box.com.
+this is the [@magic-modules](https://github.com/magic-modules) LightBox component.
+
+it shows an image that floats within the surrounding text, and,
+when clicked, expands to show a bigger view of itself.
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
@@ -27,8 +29,8 @@ LightBox('/img/img.png')
   img="https://imgs.xkcd.com/comics/digital_data.png"
   right="true"
   width="389"
-  url="https://www.brainlesstales.com/"
-  text="comic by brainlesstales">
+  url="https://xkcd.com/"
+  text="comic by xkcd">
 </LightBox>
 ```
 
@@ -47,7 +49,10 @@ bump required node version to 14.2.0
 ##### 0.0.4 
 change css to show full-width images on smaller resolutions
 
-##### 0.0.5 - unreleased
+##### 0.0.5 
+update readme
+
+##### 0.0.6 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/light-box.svg
