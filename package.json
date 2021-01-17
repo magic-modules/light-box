@@ -7,7 +7,7 @@
   "description": "@magic light-box module. shows an image that floats in text and can be clicked for a bigger view.",
   "main": "src/index.mjs",
   "engines": {
-    "node": ">=14.2.0"
+    "node": ">=14.15.4"
   },
   "engineStrict": true,
   "scripts": {
