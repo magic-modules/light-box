@@ -56,19 +56,18 @@ export const globals = {
 
 export const style = vars => ({
   float: 'left',
-  margin: '0 1.5em 1.5em 0',
+  margin: '0 0 1.5em',
   cursor: 'pointer',
-  minWidth: '200px',
   maxWidth: '800px',
 
   img: {
+    height: 'auto',
     maxWidth: '100%',
     maxHeight: '100%',
   },
 
   '&.right': {
     float: 'right',
-    margin: '0 0 1.5em 1.5em',
     textAlign: 'right',
   },
 
@@ -95,7 +94,7 @@ export const style = vars => ({
     '&.show': {
       height: '100vh',
       opacity: 1,
-      padding: '5vw 1em',
+      padding: '50vh 0 0',
       width: '100vw',
       left: 0,
     },
@@ -106,10 +105,11 @@ export const style = vars => ({
 
     img: {
       display: 'block',
-      margin: '0 auto',
       height: 'auto',
       width: '90vw',
+      margin: '0 auto',
       maxWidth: '90vh',
+      transform: 'translateY(-50%)',
     },
   },
 
@@ -117,6 +117,10 @@ export const style = vars => ({
     width: '45%',
     maxWidth: '800px',
     margin: '0 1.5em 1.5em 0',
+
+    '&.right': {
+      margin: '0 0 1.5em 1.5em',
+    },
   },
 })
 
