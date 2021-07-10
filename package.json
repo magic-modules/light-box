@@ -6,6 +6,7 @@
   "license": "AGPL-3.0",
   "description": "@magic light-box module. shows an image that floats in text and can be clicked for a bigger view.",
   "main": "src/index.mjs",
+  "type": "module",
   "engines": {
     "node": ">=14.15.4"
   },
